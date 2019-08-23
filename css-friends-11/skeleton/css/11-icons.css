@@ -1,0 +1,20 @@
+/* PHASE 11: Icons */
+.icon-comment {
+  background-position: 0 0;
+}
+.icon-reblog {
+background-position: 0 -100px;
+}
+.icon-favorite {
+background-position: 0 -50px;
+}
+
+[class*="icon-"] {
+  background-image: url("https://assets.aaonline.io/fullstack/html-css/micro-projects/css-friends/docs/images/sprite.png");
+  background-size: 25px, 500px;
+  display: inline-block;
+  width: 25px;
+  height: 0px;
+  overflow: hidden;
+  padding-top: 25px;
+}
